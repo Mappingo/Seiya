@@ -20,6 +20,7 @@
     "tests"
   ],
   "devDependencies": {
-    "requirejs": "^2.3.3"
+    "requirejs": "^2.3.3",
+    "arcgis-js-api": "^4.3.1"
   }
 }
