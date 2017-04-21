@@ -1,0 +1,22 @@
+{
+  "name": "gis",
+  "description": "arcgis 3d",
+  "main": "index.js",
+  "authors": [
+    "DomeA"
+  ],
+  "license": "LGPL-3.0",
+  "keywords": [
+    "gis",
+    "arcgis",
+    "3d"
+  ],
+  "homepage": "https://github.com/Mappingo/Seiya",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
