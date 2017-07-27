@@ -3,9 +3,12 @@ package com.domeastudio.mappingo.server.pojo;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
+import java.io.Serializable;
 
 @Entity
-public class DemoEntity {
+@Table(schema = "PUBLIC",catalog = "DB",name = "DEMO")
+public class DemoEntity implements Serializable {
     @Id
     @GeneratedValue
     private long id;
