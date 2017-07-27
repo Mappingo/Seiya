@@ -1,0 +1,10 @@
+
+\.idea/
+
+mappingo/target/
+
+*.iml
+
+mappingo/src/main/webapp/node_modules/
+
+mappingo/src/main/webapp/bower_components/
