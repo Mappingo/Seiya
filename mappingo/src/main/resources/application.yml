@@ -9,3 +9,12 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+server:
+  # 项目contextPath，一般在正式发布版本中，我们不配置
+  context-path: /mappingo
+  # 错误页，指定发生错误时，跳转的URL。请查看BasicErrorController源码便知
+  error:
+    path: /error
+  port: 8080
+  session:
+    timeout: 60
