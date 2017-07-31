@@ -59,8 +59,9 @@ module.exports = function (grunt) {
                     targetDir: "./libs",
                     layout: "byComponent",
                     install: true,
+                    copy:true,
                     verbose: false,
-                    cleanTargetDir: false,
+                    cleanTargetDir: true,
                     cleanBowerDir: false,
                     bowerOptions: {}
                 }

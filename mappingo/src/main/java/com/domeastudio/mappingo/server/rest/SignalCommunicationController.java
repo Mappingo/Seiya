@@ -9,4 +9,9 @@ public class SignalCommunicationController {
     public String test(){
         return "微服务测试通过";
     }
+
+    @RequestMapping("/db")
+    public String tes(){
+        return null;
+    }
 }
